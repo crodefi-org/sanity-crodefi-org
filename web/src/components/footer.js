@@ -37,26 +37,11 @@ const Footer = ({ siteTitle }) => (
           <p className="uppercase text-gray-500 md:mb-6">Links</p>
           <ul className="list-reset mb-6">
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a href="https://www.tailwindtoolbox.com/templates/landing-page">
-                <span className="hover:underline text-gray-800 hover:text-orange-500">
-                  Page theme
-                </span>
-              </a>
-            </li>
-            <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://sanity.io/docs"
+                href="https://crypto.org/explorer/validator/crocncl1z4ku543ctkxdy0namrac3hf949esquscnrqyws"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
-                Sanity Help
-              </a>
-            </li>
-            <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-              <a
-                href="https://slack.sanity.io"
-                className="no-underline hover:underline text-gray-800 hover:text-orange-500"
-              >
-                Slack Community
+                Validator Address
               </a>
             </li>
           </ul>
@@ -81,7 +66,7 @@ const Footer = ({ siteTitle }) => (
           <ul className="list-reset mb-6">
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://twitter.com/sanity_io"
+                href="https://twitter.com/#"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
                 Twitter
@@ -89,7 +74,7 @@ const Footer = ({ siteTitle }) => (
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://www.linkedin.com/company/sanity-io/"
+                href="https://www.linkedin.com/#"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
                 Linkedin
@@ -110,7 +95,7 @@ const Footer = ({ siteTitle }) => (
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="https://www.sanity.io/contact"
+                href="https://www.crodefi.org/#"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
                 Contact
