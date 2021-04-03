@@ -101,11 +101,13 @@ const Page = props => {
       return el;
     });
 
+  // *** this come from default template which uses the site setting from the studio
   // const gradient = {
   //   from: (site.primaryColor && site.primaryColor.hex) || "#d53369",
   //   to: (site.secondaryColor && site.secondaryColor.hex) || "#daae51"
   // };
 
+  // *** this is a quick hack to code the gradient colors
   const gradient = {
     from: "#2563EB",
     to: "#A7F3D0"

@@ -17,7 +17,7 @@ const Header = ({ showNav, siteTitle, scrolled, navMenuItems = [], textWhite = t
   navContentClass += textWhite || scrolled ? " bg-white" : "";
 
   let titleClass = "toggleColour no-underline hover:no-underline font-bold text-2xl lg:text-4xl";
-  titleClass += !textWhite || scrolled ? " text-gray-800" : "";
+  titleClass += !textWhite || scrolled ? " text-blue-600" : "";
   titleClass += textWhite || !scrolled ? " text-white" : "";
 
   return (
