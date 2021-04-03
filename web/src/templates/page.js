@@ -101,10 +101,15 @@ const Page = props => {
       return el;
     });
 
+  // const gradient = {
+  //   from: (site.primaryColor && site.primaryColor.hex) || "#d53369",
+  //   to: (site.secondaryColor && site.secondaryColor.hex) || "#daae51"
+  // };
+
   const gradient = {
-    from: (site.primaryColor && site.primaryColor.hex) || "#d53369",
-    to: (site.secondaryColor && site.secondaryColor.hex) || "#daae51"
-  };
+    from: "#2563EB",
+    to: "#A7F3D0"
+  }
 
   const menuItems = page.navMenu && (page.navMenu.items || []);
   const pageTitle = data.route && !data.route.useSiteTitle && page.title;
